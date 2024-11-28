@@ -1,0 +1,17 @@
+These are additional steps to fetch the SVD file used for this lab.  As of 5/31/2024, the SVD repo cloned when importing the mcux-sdk repo does not include the SVD file for the MCXN947.  But this file is in the SVD repo, and there are simple steps to fetch it.   The desired file is located at C:\Users\<user name>\mcux-sdk\svd\MCXN947\MCXN947_cm33_core0.xml.  If missing, us the options below.  The steps to use Git to update the repo to the main branch are provide.  Also the SVD file is included in the lab guide ZIP package:
+
+To update the SVD repo using git:
+1: Open a command window
+
+2: Change to the SVD repo folder with this command:
+cd C:\Users\<user name>\mcux-sdk\svd
+
+3: fetch the main branch from remote repo:
+git fetch
+
+4: checkout the main branch with this command:
+git checkout main
+
+Now the SVD repo should be updated, and this file is available C:\Users\<user name>\mcux-sdk\svd\MCXN947\MCXN947_cm33_core0.xml
+
+The file SVD_MCXN947_cm33_core0.xml is also included in this lab guide ZIP package.  It can be downloaded from the SVD repo at https://github.com/nxp-mcuxpresso/mcux-soc-svd/blob/main/MCXN947/MCXN947_cm33_core0.xml.  If using the file manually, be sure to update the launch.json file in the VS Code project with the path to your local SVD file.

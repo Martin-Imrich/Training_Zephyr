@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "ZephyrRTOS",
+			"path": "../../../../../Projekty/Training/ZephyrRTOS",
+			"defaultProfile": "True"
+		},
+		{
+			"name": "hello_world",
+			"path": "../../../../../Projekty/Training/ZephyrRTOS/zephyr/zephyr/samples/hello_world"
+		}
+	],
+	"settings": {
+		"terminal.integrated.defaultProfile.windows": "Command Prompt"
+	},
+	"extensions": {
+		"recommendations": [
+			"pkief.material-icon-theme"
+		]
+	}
+}

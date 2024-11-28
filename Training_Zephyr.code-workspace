@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "frdm_mcxn947_hello_world",
+			"path": "../../../../../GIT/Zephyr/zephyr/Examples/frdm_mcxn947_hello_world"
+		},
+		{
+			"path": "../../../../../GIT/Zephyr"
+		}
+	],
+	"settings": {
+		"terminal.integrated.defaultProfile.windows": "Command Prompt"
+	},
+	"extensions": {
+		"recommendations": [
+			"nxpsemiconductors.mcuxpresso", // zephyr extensions
+			"ms-vscode.vscode-serial-monitor",
+			"johnpapa.winteriscoming", // my extensions
+			"pkief.material-icon-theme",
+			"tomoki1207.pdf",
+			"github.copilot-chat"
+		]
+	}
+}

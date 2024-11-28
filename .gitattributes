@@ -1,0 +1,6 @@
+# For PowerShell scripts (.ps1), CRLF (Windows-style line endings) for Native Windows Compatibility.
+# This ensures .ps1 files always use CRLF when checked out on all systems.
+*.ps1 text eol=crlf
+
+# work in a cross-platform environment (Linux or macOS)
+# git config --global core.autocrlf true

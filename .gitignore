@@ -1,4 +1,10 @@
 __pycache__/
-venv
+.venv/
 .idea/
 
+// zephyr installed files
+zephyr/
+tools/
+modules/
+bootloader/
+.west/

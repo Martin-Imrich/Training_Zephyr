@@ -53,13 +53,13 @@ The git repository at "c:\Users\urimrm\Projekty\Training\ZephyrRTOS\mcux-sdk\.we
 
  The git repositories in the current folder are potentially unsafe as the
   folders are owned by someone other than the current user.
-  - mark as safe and open 
+  - mark as safe and open
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 // activate virtual environment
 ``` C:\Users\urimrm\.mcuxpressotools\.venv\Scripts\activate.ps1 ```
 
-- Warning 
+- Warning
 
 cd C:\Users\urimrm\Projekty\Training\ZephyrRTOS
 
@@ -95,14 +95,14 @@ Useful paths:
 
 west tool creates a build directory for several targets
 - just link server running (preinstalled by default)?
-- 
+-
 
 3.7.99 - untagged state of version (99)
 
 West build
-- ls = 
+- ls =
 - prj.conf = for merging multiple configuration files
-- 
+-
 - west config -l # configuration options
 - west build -b frdm_ # (double tab should autocomplete if west is installed correctly)
 - west build -b frdm_mcxn947/mcxn947/cpu0
@@ -120,6 +120,3 @@ Zephyr kernel configuration:
 * ```$ west build -t guiconfig -d build/frdm_mcxn947/../cpu0```
 
 * *** $ west build -t report ***
-
-
-

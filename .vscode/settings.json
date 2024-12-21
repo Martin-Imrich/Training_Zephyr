@@ -1,0 +1,4 @@
+{
+    "mcuxpresso.sdks": [],
+    "cmake.sourceDirectory": "/home/martin/Projects/Training_Zephyr/modules/bsim_hw_models/nrf_hw_models"
+}
